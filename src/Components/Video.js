@@ -93,7 +93,7 @@ function Video({ source }) {
     <div id="video-container" ref={ref}>
       <img ref={playRef} id="play-btn" src="./play.png" alt="play" />
 
-      <h1 id="logo"> F</h1>
+      <h1 id="logo"> NSFW</h1>
 
       <div id="ld">
         <IconButton id="icons" onClick={clickFunc}>
