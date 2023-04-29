@@ -33,7 +33,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-         "https://www.reddit.com/r/CrazyFuckingVideos/.json?limit=100"
+         "https://www.reddit.com/r/NSFWfunny/.json?limit=100"
       );
 
       const data = await response.json();
